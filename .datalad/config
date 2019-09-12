@@ -1,2 +1,5 @@
 [datalad "dataset"]
 	id = c6ff949e-c5d5-11e9-a14a-784f436580b3
+[datalad "containers.kwyk"]
+	image = kwyk-img
+	cmdexec = python -m datalad_container.adapters.docker run {img} {cmd}
